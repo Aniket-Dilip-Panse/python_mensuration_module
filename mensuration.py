@@ -16,6 +16,16 @@ class Mensuration:
             print(f"perimeter of triangle with side1 = {self.side1}, side2 = {self.side2}, side3 = {self.side3} is {self.perimeter}")
     class square:
         def __init__(self):
-            pass
+            self.square_area()
         def square_area(self,side):
+            self.side = float(side)
+            self.area = self.side * self.side
+            print(f"The area of square with side = {self.side} is {self.area}")
+        def square_perimeter(self,side):
+            self.side = float(side)
+            self.perimeter = 4 * self.side
+            print(f"The perimeter of square with side = {self.side} is {self.perimeter}")
+
+
+
             
