@@ -2,7 +2,7 @@ def triangle_area(base,height):
     '''Enter base and height of triangle as a parameter'''
     return 0.5 * base * height
 def square_area(side):
-    '''Enter side square as a parameter'''
+    '''Enter side of a square as a parameter'''
     return side * side
 def rectangle_area(length,breadth):
     '''Enter length and breadth of rectangle as a parameter'''
